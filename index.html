@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+	<h1 class='primaryColor'>
+		Welcome to my site
+	</h1>
+	<div>
+<p class='primaryColor'>hello</p>
+</div>
+<p id='secondP'>mathematical!</p>
+	<p>blah</p>
+	<p id='userName'></p>
+	<script>
+var element =	document.getElementById('secondP');
+element.innerHTML = "I am now changed"
+var name = prompt('what is your name?');
+document.getElementById('userName').innerHTML = name;
+	</script>
+</body>

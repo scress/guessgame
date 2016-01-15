@@ -1,0 +1,22 @@
+
+
+.primaryColor{
+	color:blue;
+
+}
+#secondP{
+	border: solid;
+}
+
+p{
+	color:yellow;
+}
+
+p.primaryColor {
+	background-color: purple;
+	
+}
+
+div  p {
+	border: dotted;
+}
