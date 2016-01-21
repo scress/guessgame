@@ -18,27 +18,32 @@ function color2(){
 }
 
 
+
+
 var correct=0
 var guess = prompt("Did I go to college");
-if (guess ="yes"){
+if (guess ==="yes"){
 	alert ("I did go to college!");
 	writeImage()
 	color()
 	correct++
 }
+
 else {
 alert ("Try again");
 color2()
 writeImage2()
 
 }
+
 var guess = prompt("Am in from Washington?");
-if (guess="yes"){
+if (guess==="yes"){
 	alert("That is correct");
 	writeImage()
 	color()
 	correct++
 }
+
 else {
 alert("Sorry wrong answer!");
 writeImage2()
@@ -46,19 +51,21 @@ color2()
 }
 
 var guess = prompt ("Am i a niners fan?");
-if (guess="no") {
+if (guess==="no"){
 	alert("Thats right! I'm a Seahawks fan");
 	writeImage()
 	color()
 	correct++
 }
+
 else {
 alert("No way dude!");
 writeImage2()
 color2()
 }
+
 var guess = prompt ("Do i like cheese?");
-if (guess ="yes") {
+if (guess==="yes"){
 	alert("Of course! Who doesn't");
 	writeImage()
 	color()
@@ -71,11 +78,12 @@ writeImage2()
 color2()
 }
 var guess = prompt ("What is my age?");
-if (guess = 39){alert ("Great guess!");
+if (guess===39){alert ("Great guess!");
 writeImage()
 color()
 correct++
 }
+
 else if (guess > 39)
 	{alert ("You think I'm how old?");}
 else if (guess < 39)
@@ -84,10 +92,11 @@ writeImage2()
 color2()
 
 }
+
 var number=correct
 if(number === 5){
 	color()
-};
-if(number < 5){
+}
+else(number<=4)
 	color2()
-};
+
